@@ -1,0 +1,51 @@
+<header class="appHeader">
+  Erica’s Etsy Listing Packet Generator (@SETAPARTSTUDIOS)
+</header>
+
+<main class="appWrap">
+
+  <div class="inputBox">
+
+    <input id="productType" placeholder="Product type" />
+    <input id="buyerType" placeholder="Buyer / niche" />
+    <input id="keywords" placeholder="Main keywords" />
+    <textarea id="benefits" placeholder="Benefits (one per line)"></textarea>
+
+    <div class="btnRow">
+      <button id="loadDemoBtn" class="btn secondary">Load Demo</button>
+      <button id="generateBtn" class="btn">Generate Listing Packet</button>
+      <button id="copyAllBtn" class="btn ghost">Copy All</button>
+    </div>
+
+    <label>
+      <input type="checkbox" id="demoMode" checked />
+      Demo Mode
+    </label>
+
+  </div>
+
+  <section class="dashboard">
+
+    <div class="card">
+      <h3>Listing Score</h3>
+      <div id="score" class="score">–</div>
+    </div>
+
+    <div class="card">
+      <h3>Top Fixes</h3>
+      <ul id="topFixes"></ul>
+    </div>
+
+    <div class="card">
+      <h3>Quick Wins</h3>
+      <div id="checklist"></div>
+      <div id="checkProgress"></div>
+    </div>
+
+  </section>
+
+</main>
+
+<footer class="appFooter">
+  Erica’s Etsy Listing Packet Generator (@SETAPARTSTUDIOS) · All rights reserved
+</footer>
