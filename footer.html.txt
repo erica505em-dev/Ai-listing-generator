@@ -1,3 +1,1 @@
-<footer class="siteFooter">
-  Erica’s Etsy Listing Packet Generator (@SETAPARTSTUDIOS) · All rights reserved
-</footer>
+
